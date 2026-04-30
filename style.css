@@ -1,5 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 * {
+    font-family: "Montserrat", sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+span {
+    color: #e4252c;
+}
+
+header {
+    padding: 42px 0;
+}
+
+.container {
+    max-width: 1179px;
+    padding: 0 20px;
+    margin: auto;
+}
+
+
+.header__content {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    
+    display: flex;
+    gap: 24px;
+}
+
+.header__btn {
+    background: #E92129;
+    border-radius: 12px;
+    padding: 14px 30px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 138%;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.header__link {
+    transition: .2s;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2f2f2f;
+}
+
+.header__link:hover {
+    color: #E92129;
+}
+
+
+
+.hero__section {
+    margin-top: 100px;
+    margin-bottom: 135px;
+}
+
+.hero__section-content {
+    display: flex;
+    gap: 87px;
+}
+
+.hero__text {
+    display: flex;
+    align-items: center;
+}
+
+.hero__title {
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 106%;
+    background: linear-gradient(140deg, #242424 0%, #e92129 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero__img {
+    width: 100%;
+}
+
+
+
+
+.about__company {
+
+}
+
+.container {
+
+}
+
+.abt-company-content {
+     display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 60px;
+    align-items: start;
+    
+}
+
+.abt__text {
+    
+}
+
+.abt__title {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 106%;
+    color: #242424;
+}
+
+.abt__right-text {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.abt__right-title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 119%;
+    color: #000;
+}
+
+.abt__right-desc {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000;
+    opacity: 0.7;
+}
+
+.stat__num {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 85%;
+    color: #000;
+}
+
+.stat__label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000;
+    opacity: 0.7;
+}
+
+.about__stats {
+  display: flex;
+  gap: 120px;
 }
