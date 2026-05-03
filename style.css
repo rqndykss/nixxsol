@@ -27,7 +27,7 @@ header {
 .container {
     max-width: 1179px;
     padding: 0 20px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 
@@ -53,6 +53,11 @@ header {
     line-height: 138%;
     letter-spacing: 0.02em;
     color: #fff;
+    transition: .3s;
+}
+
+.header__btn:hover {
+    background: #cf191f;
 }
 
 .header__link {
@@ -101,7 +106,7 @@ header {
 
 
 .about__company {
-
+    margin-bottom: 135px;
 }
 
 .container {
@@ -168,4 +173,203 @@ header {
 .about__stats {
   display: flex;
   gap: 120px;
+}
+
+
+
+
+
+.services {
+    margin-bottom: 135px;
+}
+
+.services__title {
+    text-align: center;
+    padding-top: 51px;
+    padding-bottom: 59px;
+}
+
+.Service-text {
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 106%;
+    color: #e92129;
+}
+
+.services-bg {
+    filter: blur(1px);
+    background: linear-gradient(90deg, #E4252C 0%, #000000 50%, #E92129 100%);
+    width: 100%;
+    height: 320px;
+    position: absolute;
+    z-index: -1;
+}
+
+.card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    gap:30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 16px;
+    background-color: white;
+    box-shadow: 0 4px 33px 0 rgba(0, 0, 0, 0.1);
+    
+}
+
+.lab-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.lab__icons {
+
+}
+
+.text {
+    text-align: center;
+    
+}
+
+.brand-design {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 148%;
+    letter-spacing: 0.02em;
+    margin-bottom: 6px;
+    color: #292929;
+}
+
+.brand-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #525252;
+}
+
+
+
+
+
+.portfolio {
+    margin-bottom: 135px;
+}
+
+.container {
+
+}
+
+.portfolio__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.portfolio__info {
+    max-width: 370px;
+}
+
+.portfolio__title {
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 106%;
+    color: #242424;
+    margin-bottom: 5px;
+}
+
+.portfolio__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 125%;
+    color: #1c1c1c;
+    margin-bottom: 27px;
+}
+
+.portfolio__btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 28px;
+    background: #e4252c;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 138%;
+    letter-spacing: 0.02em;
+    color: #fff;
+    transition: .3s;
+}
+
+.portfolio__btn:hover {
+    background: #cf191f;
+}
+
+.port-arrow {
+    
+}
+
+.portfolio__slider {
+    position: relative;
+    width: 720px;
+    height: 430px;
+    overflow: hidden;
+}
+
+.portfolio__track {
+    display: flex;
+    height: 100%;
+    transition: transform .5s ease;
+}
+
+.portfolio__slide {
+    min-width: 100%;
+    height: 100%;
+    transition: .5s;
+    transform: scale(.82);
+    opacity: .5;
+}
+
+.portfolio__slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.portfolio__slide--active {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.portfolio__nav {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.portfolio__arrow {
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 50%;
+    background: #e4252c;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.portfolio__arrow--prev {
+
+}
+
+.portfolio__arrow--next {
+
 }
